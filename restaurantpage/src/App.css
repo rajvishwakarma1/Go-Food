@@ -517,24 +517,43 @@ body {
   margin-bottom: 20px;
 }
 
+.category-button svg {
+  margin-left: 0.75rem;
+  font-size: 1.5rem;
+}
+
 .category-nav {
   display: flex;
   justify-content: center;
   gap: 10px;
-  margin-bottom: 30px;
+
 }
 
 .category-nav button {
-  padding: 10px 20px;
-  background-color: #e0e0e0;
+  padding: 0.3rem 1.0rem;
+  background-color: #fe9e0d;
+  outline: none;
   border: none;
+  border-radius: 5rem;
+  font-size: 1.1rem;
   cursor: pointer;
-  font-size: 1em;
+  font-weight: 600;
+  color: white;
+  transition: 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.category-nav button:active,
+.category-nav button:focus {
+  background-color: #a9a9a9; /* Greyish color when clicked or focused */
 }
 
 .category-nav button:hover {
-  background-color: #d4d4d4;
+  background-color: #e48f0f;
 }
+
 
 .meals-list {
   display: flex;

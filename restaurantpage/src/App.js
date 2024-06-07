@@ -25,8 +25,10 @@ function App() {
         <h2>Top Category Of Organic Food</h2>
         <nav className="category-nav">
           <button onClick={() => setCategory('Seafood')}>Seafood</button>
-          <button onClick={() => setCategory('Beef')}>Beef</button>
           <button onClick={() => setCategory('Chicken')}>Chicken</button>
+          <button onClick={() => setCategory('Vegetarian')}>Vegetarian</button>
+          <button onClick={() => setCategory('Pasta')}>Pasta</button>
+          <button onClick={() => setCategory('Dessert')}>Dessert</button>
           {/* Add more categories as needed */}
         </nav>
         <ul className="meals-list">
