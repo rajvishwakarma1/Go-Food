@@ -1,5 +1,5 @@
 // src/App.js
-
+import Home from "./Components/Home";
 import React, { useState, useEffect } from 'react';
 import { fetchMealsByCategory } from './api';
 import './App.css';
@@ -19,6 +19,7 @@ function App() {
 
   return (
     <div className="App">
+      <Home />
       <header className="App-header">
         <div className="header-content">
           <h1>Buy Fresh And Organic Grocery Food</h1>
