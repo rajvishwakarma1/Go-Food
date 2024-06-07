@@ -16,6 +16,7 @@ import InfoIcon from "@mui/icons-material/Info";
 import CommentRoundedIcon from "@mui/icons-material/CommentRounded";
 import PhoneRoundedIcon from "@mui/icons-material/PhoneRounded";
 import ShoppingCartRoundedIcon from "@mui/icons-material/ShoppingCartRounded";
+import { FiArrowRight } from "react-icons/fi";
 
 const Navbar = () => {
   const [openMenu, setOpenMenu] = useState(false);
@@ -48,13 +49,27 @@ const Navbar = () => {
       </div>
       <div className="navbar-links-container">
         <a href="">Home</a>
-        <a href="">About</a>
-        <a href="">Testimonials</a>
-        <a href="">Contact</a>
+        <a href="">Groceries</a>
+        <a href="">Pages</a>
         <a href="">
-          <BsCart2 className="navbar-cart-icon" />
+          {/* <BsCart2 className="navbar-cart-icon" /> */}
         </a>
-        <button className="primary-button">Bookings Now</button>
+        <a href="">
+          {/* <BsCart2 className="navbar-cart-icon" /> */}
+        </a>
+        <a href="">
+          {/* <BsCart2 className="navbar-cart-icon" /> */}
+        </a>
+        <a href="">
+          {/* <BsCart2 className="navbar-cart-icon" /> */}
+        </a>
+        <a href="">
+          {/* <BsCart2 className="navbar-cart-icon" /> */}
+        </a>
+        <a href="">
+          {/* <BsCart2 className="navbar-cart-icon" /> */}
+        </a>
+        <button className="primary-button">Connect With Us <FiArrowRight /></button>
       </div>
       <div className="navbar-menu-container">
         <HiOutlineBars3 onClick={() => setOpenMenu(true)} />

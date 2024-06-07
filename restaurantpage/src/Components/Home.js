@@ -13,15 +13,17 @@ const Home = () => {
           <img src={BannerBackground} alt="" />
         </div>
         <div className="home-text-section">
+        <p className="primary-text-2">
+            Discount up to 20%
+          </p>
           <h1 className="primary-heading">
             Buy Fresh and Organic Grocery Food
           </h1>
           <p className="primary-text">
-            Healthy switcher chefs do all the prep work, like peeding, chopping
-            & marinating, so you can cook a fresh food.
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit. Minus a eos molestiae placeat magni maxime laboriosam animi laborum. Officia iure, unde harum non repellendus.
           </p>
           <button className="secondary-button">
-            Order Now <FiArrowRight />{" "}
+            Shop Now <FiArrowRight />{" "}
           </button>
         </div>
         <div className="home-image-section">

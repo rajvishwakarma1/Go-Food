@@ -20,17 +20,8 @@ function App() {
   return (
     <div className="App">
       <Home />
-      <header className="App-header">
-        <div className="header-content">
-          <h1>Buy Fresh And Organic Grocery Food</h1>
-          <button className="shop-now-button">Shop Now</button>
-          <div className="stats">
-            <span>35k+ Users</span>
-            <span>18k+ Products</span>
-          </div>
-        </div>
-      </header>
       <section className="category-section">
+        <h3>Shop by Category</h3>
         <h2>Top Category Of Organic Food</h2>
         <nav className="category-nav">
           <button onClick={() => setCategory('Seafood')}>Seafood</button>
