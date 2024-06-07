@@ -1,4 +1,4 @@
-"use client"; // Add this line at the top
+"use client";
 
 import axios from 'axios';
 import { useState, useEffect } from 'react';
@@ -30,7 +30,7 @@ export default function Home() {
   }, [selectedCategory]);
 
   return (
-    <div>
+    <div className="bg-cream min-h-screen">
       <Banner />
       <CategoryFilter categories={categories} onSelectCategory={setSelectedCategory} />
       <ProductList products={products} />

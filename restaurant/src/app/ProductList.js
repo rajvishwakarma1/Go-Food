@@ -1,8 +1,9 @@
-"use client"; // Add this line at the top
+"use client";
 
 import ProductCard from './ProductCard';
 
 const ProductList = ({ products }) => {
+  const limitedProducts = products.slice(0, 6);
   return (
     <div className="flex flex-wrap justify-center">
       {products.map((product) => (
